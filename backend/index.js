@@ -11,7 +11,7 @@ dotenv.config();
 
 app.use(cookieParser());
 app.use(cors({
-  origin: 'https://frontend-notes-176-dot-xenon-axe-450704-n3.uc.r.appspot.com',
+  origin: 'localhost:3000',
   credentials: true,
 }));
 app.use(express.json());
