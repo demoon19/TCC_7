@@ -11,7 +11,7 @@ dotenv.config();
 
 app.use(cookieParser());
 app.use(cors({
-  origin: 'localhost:3000',
+  origin: 'https://praktcc-460915.uc.r.appspot.com/',
   credentials: true,
 }));
 app.use(express.json());

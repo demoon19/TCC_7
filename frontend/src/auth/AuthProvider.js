@@ -17,7 +17,7 @@ export const AuthProvider = ({ children }) => {
       setAccessToken(res.data.accessToken);
       Cookies.set("refreshToken", res.data.refreshToken, {
         secure: true,
-        domain: "frontend-notes-176-dot-xenon-axe-450704-n3.uc.r.appspot.com",
+        domain: "https://praktcc-460915.uc.r.appspot.com/",
         expires: 5,
       });
       return true;
